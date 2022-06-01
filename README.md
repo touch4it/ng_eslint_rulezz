@@ -3,10 +3,9 @@
 TSlint rules for angular applications.
 
 ## Usage
-Add this to yout `tslint.json`
-
+Add this to your `.eslintrc.json`
 ```json
 {
-  "extends": ["ng_tslint_rulezz"]
+  "extends": "./node_modules/@touch4it/ng_eslint_rulezz"
 }
 ```

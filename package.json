@@ -1,8 +1,8 @@
 {
-  "name": "@touch4it/ng_tslint_rulezz",
-  "version": "1.1.0",
+  "name": "@touch4it/ng_eslint_rulezz",
+  "version": "1.0.0",
   "description": "",
-  "main": "tslint.json",
+  "main": "index.js",
   "scripts": {
     "publish:t4i": "npm run npm_prepublish && npm publish --registry https://npm.touch4.it",
     "npm_prepublish": "rm -rf node_modules && rm package-lock.json && npm i"
@@ -11,6 +11,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "codelyzer": "^5.2.2"
+    "@angular-eslint/builder": "13.1.0",
+    "@angular-eslint/eslint-plugin": "13.1.0",
+    "@angular-eslint/eslint-plugin-template": "13.1.0",
+    "@angular-eslint/schematics": "13.1.0",
+    "@angular-eslint/template-parser": "13.1.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.2.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2"
   }
 }
