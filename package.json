@@ -1,6 +1,6 @@
 {
   "name": "@touch4it/ng_eslint_rulezz",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,14 +16,14 @@
     "@angular-eslint/eslint-plugin-template": "15.2.0",
     "@angular-eslint/schematics": "15.2.0",
     "@angular-eslint/template-parser": "15.2.0",
-    "@typescript-eslint/eslint-plugin": "5.49.0",
-    "@typescript-eslint/parser": "5.49.0",
-    "eslint": "^8.32.0",
-    "eslint-config-prettier": "^8.6.0",
+    "@typescript-eslint/eslint-plugin": "5.59.11",
+    "@typescript-eslint/parser": "5.59.11",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsdoc": "^39.6.8",
+    "eslint-plugin-jsdoc": "^46.2.6",
     "eslint-plugin-prefer-arrow": "^1.2.3",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.3"
+    "prettier": "^2.8.8"
   }
 }

@@ -18,6 +18,7 @@ module.exports = {
         "plugin:prettier/recommended",
       ],
       rules: {
+        "jsdoc/newline-after-description": "off",
         "no-unused-vars": "off",
         "array-element-newline": [
           "error",
