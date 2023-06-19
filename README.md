@@ -1,6 +1,13 @@
-### NG tsling rulezz
+### NG esling rulezz
 
-TSlint rules for angular applications.
+ESlint rules for angular applications.
+
+## Compatibility
+
+| Lib version | Angular version |
+|:------------|:----------------|
+|~1.0.0        | >=13.0.0       |
+|~1.1.0       | 15.0.0          |
 
 ## Usage
 Add this to your `.eslintrc.json`
