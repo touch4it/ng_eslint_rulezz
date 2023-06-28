@@ -8,6 +8,12 @@ on [Common Changelog](https://common-changelog.org/).
 
 Further information in [Redmine](https://redmine.touch4it.com/projects/developers-know-how/wiki/Changelog).
 
+## [1.2.0] - 2023-06-19
+
+### Added
+
+- angular 16 support
+
 ## [1.1.1] - 2023-06-19
 
 ### Changed
