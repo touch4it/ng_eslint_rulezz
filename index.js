@@ -12,8 +12,8 @@ module.exports = {
       extends: [
         "eslint:recommended",
         "plugin:@angular-eslint/recommended",
-        "plugin:@angular-eslint/ng-cli-compat",
-        "plugin:@angular-eslint/ng-cli-compat--formatting-add-on",
+        "./legacy/ng-cli-compat-legacy.json",
+        "./legacy/ng-cli-compat--formatting-add-on-legacy.json",
         "plugin:@angular-eslint/template/process-inline-templates",
         "plugin:prettier/recommended",
       ],
