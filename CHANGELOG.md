@@ -8,7 +8,13 @@ on [Common Changelog](https://common-changelog.org/).
 
 Further information in [Redmine](https://redmine.touch4it.com/projects/developers-know-how/wiki/Changelog).
 
-## [1.2.0] - 2023-06-19
+## [1.2.1] - 2023-06-28
+
+### Changed
+
+- deprecated ng-cli-compat support added by using static files with original configuration
+
+## [1.2.0] - 2023-06-20
 
 ### Added
 
