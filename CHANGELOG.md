@@ -8,6 +8,12 @@ on [Common Changelog](https://common-changelog.org/).
 
 Further information in [Redmine](https://redmine.touch4it.com/projects/developers-know-how/wiki/Changelog).
 
+## [1.3.0] - 2023-12-19
+
+### Changed
+
+- deps update
+
 ## [1.2.1] - 2023-06-28
 
 ### Changed
