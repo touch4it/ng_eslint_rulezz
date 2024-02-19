@@ -8,6 +8,20 @@ on [Common Changelog](https://common-changelog.org/).
 
 Further information in [Redmine](https://redmine.touch4it.com/projects/developers-know-how/wiki/Changelog).
 
+## [1.3.1] - Unreleased
+
+### Added
+
+- unused imports
+
+### Changed
+
+- `dependencies` moved to `peerDependencies`
+
+### Removed
+
+- legacy rules
+
 ## [1.3.0] - 2023-12-19
 
 ### Changed

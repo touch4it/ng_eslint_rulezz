@@ -1,6 +1,9 @@
 module.exports = {
   root: true,
-  ignorePatterns: ["projects/**/*"],
+  ignorePatterns: [
+    "projects/**/*",
+    "node_modules/**/*",
+  ],
   overrides: [
     {
       files: ["*.ts"],
@@ -11,15 +14,14 @@ module.exports = {
       },
       extends: [
         "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
         "plugin:@angular-eslint/recommended",
-        "./legacy/ng-cli-compat-legacy.json",
-        "./legacy/ng-cli-compat--formatting-add-on-legacy.json",
         "plugin:@angular-eslint/template/process-inline-templates",
         "plugin:prettier/recommended",
       ],
+      plugins: ["import", "unused-imports"],
       rules: {
         "jsdoc/newline-after-description": "off",
-        "no-unused-vars": "off",
         "array-element-newline": [
           "error",
           {
@@ -50,10 +52,18 @@ module.exports = {
         "import/order": [
           "error",
           {
+            pathGroups: [{ "pattern": "~/**", "group": "internal" }],
             groups: ["builtin", "external", "internal", "parent", "sibling"],
             "newlines-between": "always",
           },
         ],
+        "@typescript-eslint/no-unused-vars": ["off"],
+        "no-unused-vars": "off",
+        "unused-imports/no-unused-imports": "error",
+        "unused-imports/no-unused-vars": [
+          "error",
+          { "vars": "all", "varsIgnorePattern": "^_", "args": "after-used", "argsIgnorePattern": "^_" }
+        ]
       },
     },
     {
