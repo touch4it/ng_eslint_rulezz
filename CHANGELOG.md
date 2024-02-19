@@ -10,6 +10,10 @@ Further information in [Redmine](https://redmine.touch4it.com/projects/developer
 
 ## [1.3.1] - Unreleased
 
+### Added
+
+- unused imports
+
 ### Changed
 
 - `dependencies` moved to `peerDependencies`
