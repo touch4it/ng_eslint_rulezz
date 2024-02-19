@@ -19,6 +19,7 @@ module.exports = {
         "plugin:@angular-eslint/template/process-inline-templates",
         "plugin:prettier/recommended",
       ],
+      plugins: ["import", "unused-imports"],
       rules: {
         "jsdoc/newline-after-description": "off",
         "array-element-newline": [
