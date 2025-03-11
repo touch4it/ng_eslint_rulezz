@@ -1,6 +1,6 @@
 {
   "name": "@touch4it/ng_eslint_rulezz",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,19 +12,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@angular-eslint/builder": "^18.4.3",
-    "@angular-eslint/eslint-plugin": "^18.4.3",
-    "@angular-eslint/eslint-plugin-template": "^18.4.3",
-    "@angular-eslint/schematics": "^18.4.3",
-    "@angular-eslint/template-parser": "^18.4.3",
-    "@typescript-eslint/eslint-plugin": "^8.20.0",
-    "@typescript-eslint/parser": "^8.20.0",
-    "eslint": "^9.18.0",
-    "eslint-config-prettier": "^10.0.1",
+    "@angular-eslint/builder": "^19.2.1",
+    "@angular-eslint/eslint-plugin": "^19.2.1",
+    "@angular-eslint/eslint-plugin-template": "^19.2.1",
+    "@angular-eslint/schematics": "^19.2.1",
+    "@angular-eslint/template-parser": "^19.2.1",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jsdoc": "^50.6.2",
+    "eslint-plugin-jsdoc": "^50.6.6",
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-unused-imports": "^4.1.4",
-    "prettier": "^3.4.2"
+    "prettier": "^3.5.3"
   }
 }

@@ -11,6 +11,7 @@ ESlint rules for angular applications.
 | ~1.2.0      | 16.0.0          |
 | ~1.3.0      | 17.0.0          |
 | ~1.4.0      | 18.0.0          |
+| ~1.5.0      | 19.0.0          |
 
 ## Usage
 Add this to your `.eslintrc.json`
