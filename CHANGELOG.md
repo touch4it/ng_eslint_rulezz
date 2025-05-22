@@ -9,6 +9,28 @@ on [Common Changelog](https://common-changelog.org/).
 Further information in [Redmine](https://redmine.touch4it.com/projects/developers-know-how/wiki/Changelog).
 
 ## [Unreleased]
+## [1.5.0] - 2025-05-22
+
+### Added
+
+- prettier configuration
+
+### Changed
+
+- **Breaking** migration to eslint 9 configuration
+
+## [1.5.0] - 2025-05-11
+
+### Changed
+
+- angular 19 support
+
+## [1.4.0] - 2025-01-20
+
+### Changed
+
+- angular 18 support
+
 ## [1.3.2] - 2024-08-10
 
 ### Changed
