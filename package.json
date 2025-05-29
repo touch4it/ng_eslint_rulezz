@@ -1,6 +1,6 @@
 {
   "name": "@touch4it/ng_eslint_rulezz",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "ESLint rules for Angular projects defined for Touch4IT projects.",
   "main": "index.js",
   "type": "module",

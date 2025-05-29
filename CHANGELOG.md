@@ -9,7 +9,14 @@ on [Common Changelog](https://common-changelog.org/).
 Further information in [Redmine](https://redmine.touch4it.com/projects/developers-know-how/wiki/Changelog).
 
 ## [Unreleased]
-## [1.5.0] - 2025-05-22
+## [1.6.1] - 2025-05-29
+
+### Changed
+
+- configuration simplified
+- removed deprecated rules
+
+## [1.6.0] - 2025-05-22
 
 ### Added
 
