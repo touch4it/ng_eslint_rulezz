@@ -7,7 +7,7 @@ export default {
     endOfLine: 'auto',
     bracketSpacing: true,
     trailingComma: 'all',
-    plugins: [import.meta.resolve('prettier-plugin-curly'), import.meta.resolve('prettier-plugin-packagejson')],
+    plugins: [require.resolve('prettier-plugin-packagejson')],
     overrides: [
       {
         files: ['*.css', '*.scss', '*.sass'],
