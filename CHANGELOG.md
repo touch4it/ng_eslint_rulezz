@@ -9,6 +9,12 @@ on [Common Changelog](https://common-changelog.org/).
 Further information in [Redmine](https://redmine.touch4it.com/projects/developers-know-how/wiki/Changelog).
 
 ## [Unreleased]
+## [1.6.2] - 2025-05-29
+
+### Fixed
+
+- peer dependency `eslint-config-prettier` moved as dependency
+
 ## [1.6.1] - 2025-05-29
 
 ### Changed
