@@ -9,6 +9,14 @@ on [Common Changelog](https://common-changelog.org/).
 Further information in [Redmine](https://redmine.touch4it.com/projects/developers-know-how/wiki/Changelog).
 
 ## [Unreleased]
+
+## [1.7.0] - 2026-02-10
+
+### Changed
+
+- updated dependencies
+- updated configuration
+
 ## [1.6.2] - 2025-05-29
 
 ### Fixed
